@@ -1,90 +1,93 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title> Shaan Vaidya </title>
-	<link rel='shortcut icon' href='assets/favicon-bolt.ico' type='image/x-icon'/ >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shaan Vaidya</title>
+	<link rel="icon" href="assets/favicon-bolt.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-	<div id="home" class="container-fluid">
-	    <div class="row"> 
-			<div class="col-md-1">  
-		    </div>
-			<div class="col-md-3">
-				<div class="sticky-top" style="top:30px">
-				<center><h1><span id="shaan">shaan</span><span id="vaidya"> vaidya</h1></span>
-				<div class="img" id="image">
-						<img src="images/me1.jpeg" alt="Shaan" id="tp" class="img-responsive me" align="center" title="... at a cafe in Old Town Stockholm">
+	<button id="dark-mode-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+		<i class="fas fa-sun"></i>
+		<i class="fas fa-moon"></i>
+	</button>
+
+	<main class="container">
+		<div class="profile-section">
+			<header class="profile-header">
+				<div class="profile-image">
+					<img src="images/me1.jpeg" alt="Shaan at a cafe in Old Town Stockholm" class="profile-photo">
 				</div>
-				<br>
-					<a href="mailto:spvaidya1497@gmail.com" align=center target="_blank">
-				    	<img title="Mail" alt="Mail" src="assets/mail.svg" class="social"/>
-				  	</a>
-				    &nbsp &nbsp
-				    <a href="https://www.linkedin.com/in/shaan-vaidya/" align=center target="_blank">
-				    	<img title="LinkedIn" alt="LinkedIn" src="assets/linkedin.svg" class="social" />
-				    </a>
-                                    <br><br>
-                                    <button id="dark-mode-toggle" class="btn btn-sm btn-outline-secondary">Toggle Dark Mode</button>
-                            </center>
-                                </div>
-			</div>
-			<div class="col-md-7"> <!--  style="border-left: 1px solid #ccc" -->
-				<h3 class="heading">About Me</h3>
-				<h5 align="justify">
-                                        I am a software engineer at <a href="https://www.glean.com" target="_blank">Glean</a>.
-                                        I began a doctoral program in <a href="https://www.cis.upenn.edu/" target="_blank">Computer and Information Science at the University of Pennsylvania</a>, where I was advised by <a href="https://www.cis.upenn.edu/~alur/" target="_blank">Rajeev Alur</a>, and eventually mastered out.
-                                        During my time at Penn I worked on verification of neural network controllers for the <a href="https://f1tenth.org/" target="_blank">F1/10 autonomous vehicle testbed</a>.
-                                        <br><br>
-                                        Before Penn, I was an undergraduate at the department of <a href="https://www.cse.iitb.ac.in" target="_blank">Computer Science, Indian Institute of Technology, Bombay</a>.
-                                        <br><br>
-                                        I love birding, cooking, baking, ice cream making, backpacking, and vibe chasing in no particular order.
-                                        <br><br>
-                                        In my free time, I've been building a <a href="https://shaanvaidya.github.io/SanFranciscoStreetTreeMap/" target="_blank">better map of San Francisco's street trees</a>.
+				<nav class="social-links">
+					<a href="mailto:spvaidya1497@gmail.com" aria-label="Email">
+						<i class="fas fa-envelope social-icon"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/shaan-vaidya/" aria-label="LinkedIn">
+						<i class="fab fa-linkedin social-icon"></i>
+					</a>
+					<a href="https://github.com/shaanvaidya" aria-label="GitHub">
+						<i class="fab fa-github social-icon"></i>
+					</a>
+				</nav>
+			</header>
 
-                                </h5>
-				<hr>
-				
-				<!-- <hr>
-				<h3 class="heading">Presentations, Reports, Scribes</h3>
-				<h5>
-				<ul style="list-style: none; padding-left: 0;">
-					<li><a href="docs/CS721_Seminar.pdf">PCP theorem and hardness of approximation</a> (Seminar Presentation)
-					<li><a href="docs/CS735_Seminar.pdf">Ideal Abstractions for WSTS</a> (Seminar Presentation)
-					<li><a href="docs/CS735_Scribe.pdf">Downward-closed sets and Ideals</a> (Scribe)
-					<li><a href="docs/McEliece_ProjectReport.pdf">A Study of the McEliece PKE</a> (Seminar Report)
-				</ul></h5> -->
-			</div>
-			<div class="col-md-1">  
-		    </div>
+			<section class="about-section">
+				<h2>Hi, I'm Shaan</h2>
+				<div class="about-content">
+					<p>
+						I'm currently a software engineer at <a href="https://www.glean.com" target="_blank"
+							rel="noopener">Glean</a>.
+						In a past life, I began a PhD in Computer Science at the University of Pennsylvania, where I
+						worked on applying formal verification to neural networks for autonomous vehicles before
+						deciding to master out.
+					</p>
+					<p>
+						Outside of work, you'll find me <a href="https://ebird.org/profile/MTc0Nzk2Mw/world"
+							target="_blank" rel="noopener">birding</a>, cooking, baking, ice cream making, hiking,
+						backpacking,
+						vibe coding or just plain vibe chasing.
+					</p>
+					<p>
+						Lately, I've been building <a href="https://shaanvaidya.github.io/SanFranciscoStreetTreeMap/"
+							target="_blank" rel="noopener"> a visual map of San Francisco's street trees</a> — a way to
+						find out what cool
+						trees are growing around the city (or right outside your door).
+					</p>
+				</div>
+			</section>
 		</div>
-	</div>
-	<!-- Start of SimpleHitCounter Code -->
-<!-- Start of SimpleHitCounter Code -->
-<!-- <div align="center"><a href="http://www.simplehitcounter.com" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=0&f=16777215&b=0" border="0" height="18" width="83" alt="web counter"></a><br><a href="http://www.simplehitcounter.com" target="_blank" style="text-decoration:none;">web counter</a></div> -->
-<!-- End of SimpleHitCounter Code -->
+	</main>
 
-<!-- End of SimpleHitCounter Code -->
+	<script>
+		const toggle = document.getElementById('dark-mode-toggle');
 
-<!-- with <a href="https://www.cse.iitb.ac.in/~supratik" target="_blank">Prof. Supratik Chakraborty</a> on sampling traces of a symbolic transition system as part of my undergraduate project.  -->					<!-- Since Summer 2018, I have also been working on modeling timed asynchronous programs with <a href="http://www.it.uu.se/katalog/mohat117/atig" target="_blank">Prof. Mohamed Faouzi Atig</a> and <a href="https://www.cse.iitb.ac.in/~krishnas" target="_blank">Prof. Krishna S.</a> -->
-<!-- <h3 class="heading">Research Interests</h3>
-	<h5>I am broadly interested in:
-		<ul>
-			<li>formal methods, programming languages
-			<li>machine learning</li>
-			<li>automata theory, timed automata, logic in CS
-		    </ul>
-		</h5>
-                <hr> -->
-        <script>
-            const toggle = document.getElementById('dark-mode-toggle');
-            toggle.addEventListener('click', () => {
-                document.body.classList.toggle('dark-mode');
-            });
-        </script>
+		// Check for system preference
+		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+		// Set initial theme based on system preference
+		if (prefersDark.matches) {
+			document.body.classList.add('dark-mode');
+		}
+
+		// Listen for system preference changes
+		prefersDark.addEventListener('change', (e) => {
+			if (e.matches) {
+				document.body.classList.add('dark-mode');
+			} else {
+				document.body.classList.remove('dark-mode');
+			}
+		});
+
+		// Handle manual toggle
+		toggle.addEventListener('click', () => {
+			document.body.classList.toggle('dark-mode');
+		});
+	</script>
 </body>
+
 </html>
