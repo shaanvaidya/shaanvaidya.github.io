@@ -128,7 +128,7 @@ h2 {
 	font-size: 1.75rem;
 	color: var(--primary-color);
 	margin-bottom: calc(var(--spacing-unit) * 1.5);
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .about-content {
