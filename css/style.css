@@ -162,13 +162,26 @@ h3 {
 }
 
 body {
-	margin: 30px 0px 0px 0px;
-	padding: 0;
-	background: #FFFFFF;
-	font-family: Product Sans;
-	font-size: 13px;
-	/*font-color: #262228;*/
-	color: #262228;
-	/*overflow: hidden;*/
-  	/*height:100%;*/
+        margin: 30px 0px 0px 0px;
+        padding: 0;
+        background: #FFFFFF;
+        font-family: Product Sans;
+        font-size: 13px;
+        /*font-color: #262228;*/
+        color: #262228;
+        /*overflow: hidden;*/
+        /*height:100%;*/
+}
+
+body.dark-mode {
+        background: #121212;
+        color: #e0e0e0;
+}
+
+body.dark-mode a {
+        color: #80cbc4;
+}
+
+body.dark-mode a:hover {
+        color: #4dd0e1;
 }
