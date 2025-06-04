@@ -353,6 +353,7 @@ div#socialmedia {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	outline: none;
 }
 
 .theme-toggle:hover {
@@ -363,4 +364,8 @@ div#socialmedia {
 
 body.dark-mode .theme-toggle:hover {
 	background: rgba(255, 255, 255, 0.1);
+}
+
+.theme-toggle:focus {
+	outline: none;
 }
